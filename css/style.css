@@ -1,8 +1,13 @@
-img.family, img.rachelle, img.little_man, img.cal, div.nav_fam {
+img[class] {
 	height: 300px;
 	display: inline-block;
 	padding: 10px;
 	margin: auto;
 	border-radius: 20px;
 	vertical-align: middle;
+}
+body {
+	font-family: Georgia, serif;
+	color: #3d3d3d;
+	background-color: #f6f3f3;
 }
