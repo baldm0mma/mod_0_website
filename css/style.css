@@ -11,14 +11,6 @@ body.index_body {
 	background-color: #f6f3f3;
 }
 
-body.fam_body {
-	background-color: #D1D3DC;
-}
-
-body.moto_body {
-	background-color: #2D1C23;
-}
-
 .body_content {
 	height: 100%;
 	width: 75%;
@@ -28,6 +20,10 @@ body.moto_body {
 	color: #3d3d3d;
 	background-color: #f6f3f3;
 	text-align: center;
+}
+
+body.fam_body {
+	background-color: #D1D3DC;
 }
 
 .fam_body_content {
@@ -41,6 +37,10 @@ body.moto_body {
 	text-align: center;
 }
 
+body.moto_body {
+	background-color: #2D1C23;
+}
+
 .moto_body_content {
 	height: 100%;
 	width: 75%;
@@ -50,6 +50,48 @@ body.moto_body {
 	color: #f6f3f3;
 	background-color: #2D1C23;
 	text-align: center;
+}
+
+body.game_body {
+	background-color: #DEF375;
+}
+
+.game_body_content {
+	height: 100%;
+	width: 65%;
+	margin: auto;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	color: #4171D2;
+	background-color: #DEF375;
+	text-align: center;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f26060;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #4c4a9b;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #ff00e9;
+  color: white;
 }
 
 .list {
@@ -72,6 +114,10 @@ h3.moto {
 
 h4.moto {
 	color: #E3107A;
+}
+
+#fun {
+	font-size: 46px;
 }
 
 img.nav_img {
