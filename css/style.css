@@ -1,13 +1,62 @@
-img[class] {
-	height: 300px;
+img.family, img.rachelle, img.little_man, img.cal {
+	height: 200px;
 	display: inline-block;
 	padding: 10px;
 	margin: auto;
 	border-radius: 20px;
-	vertical-align: middle;
 }
+
 body {
+	background-color: #f6f3f3;
+}
+
+.body_content {
+	height: 100%;
+	width: 75%;
+	margin: auto;
 	font-family: Georgia, serif;
+	font-size: 18px;
 	color: #3d3d3d;
 	background-color: #f6f3f3;
+	text-align: center;
+}
+
+.list {
+ 	text-align: left;
+}
+
+#banner {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-size: 46px;
+}
+
+img.nav_img {
+	border: 1px solid #ddd;
+ 	border-radius: 4px;
+ 	padding: 5px;
+ 	width: 500px;
+ 	border-radius: 20px;
+ 	margin-bottom: 20px;
+ 	margin-top: 100px;
+}
+
+img.nav_img:hover {
+ 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+div#navigation {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+span {
+	display: block;
+	padding: 20px;
+	margin: 20px;
 }
