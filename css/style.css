@@ -3,7 +3,8 @@ img.family {
 	display: inline-block;
 	padding: 10px;
 	margin: auto;
-	border-radius: 20px;
+	border: 1px solid #ddd;
+ 	border-radius: 12px;
 }
 
 body.index_body {
