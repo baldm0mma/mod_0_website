@@ -1,4 +1,4 @@
-img.family, img.rachelle, img.little_man, img.cal {
+img.family {
 	height: 200px;
 	display: inline-block;
 	padding: 10px;
@@ -6,8 +6,16 @@ img.family, img.rachelle, img.little_man, img.cal {
 	border-radius: 20px;
 }
 
-body {
+body.index_body {
 	background-color: #f6f3f3;
+}
+
+body.fam_body {
+	background-color: #D1D3DC;
+}
+
+body.moto_body {
+	background-color: #2D1C23;
 }
 
 .body_content {
@@ -18,6 +26,28 @@ body {
 	font-size: 18px;
 	color: #3d3d3d;
 	background-color: #f6f3f3;
+	text-align: center;
+}
+
+.fam_body_content {
+	height: 100%;
+	width: 75%;
+	margin: auto;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	color: #3d3d3d;
+	background-color: #D1D3DC;
+	text-align: center;
+}
+
+.moto_body_content {
+	height: 100%;
+	width: 75%;
+	margin: auto;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	color: #f6f3f3;
+	background-color: #2D1C23;
 	text-align: center;
 }
 
@@ -32,6 +62,15 @@ body {
 
 h1 {
 	font-size: 46px;
+}
+
+h3.moto {
+	font-size: 38px;
+	color: #E3107A;
+}
+
+h4.moto {
+	color: #E3107A;
 }
 
 img.nav_img {
