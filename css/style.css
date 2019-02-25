@@ -107,6 +107,10 @@ h1 {
 	font-size: 46px;
 }
 
+h3 {
+	font-size: 38px;
+}
+
 h3.moto {
 	font-size: 38px;
 	color: #E3107A;
@@ -127,7 +131,7 @@ img.nav_img {
  	width: 500px;
  	border-radius: 20px;
  	margin-bottom: 20px;
- 	margin-top: 100px;
+ 	margin-top: 10px;
 }
 
 img.nav_img:hover {
