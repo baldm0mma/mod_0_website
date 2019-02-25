@@ -124,9 +124,13 @@ h4.moto {
 	font-size: 46px;
 }
 
+hr {
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
 img.nav_img {
 	border: 1px solid #ddd;
- 	border-radius: 4px;
  	padding: 5px;
  	width: 500px;
  	border-radius: 20px;
